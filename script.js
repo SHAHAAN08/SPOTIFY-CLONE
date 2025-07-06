@@ -33,7 +33,7 @@ async function getsongs(folder) {
                 <img class="invert" width="34" src="music.svg" alt="">
                 <div class="info">
                     <div>${song.replaceAll("%20", " ")}</div>
-                    <div>Shahaan</div>
+                    <div>shahaan</div>
                 </div>
                 <div class="playnow">
                     <span>Play Now</span>
@@ -112,7 +112,6 @@ async function displayAlbums() {
         });
     });
 }
-
 
 async function main() {
     songs = await getsongs("Electronic");
