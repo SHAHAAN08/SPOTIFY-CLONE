@@ -30,14 +30,14 @@ async function getsongs(folder) {
     for (let song of songList) {
         songUL.innerHTML += `
             <li>
-                <img class="invert" width="34" src="music.svg" alt="">
+                <img class="invert" width="34" src="img/music.svg" alt="">
                 <div class="info">
                     <div>${song.replaceAll("%20", " ")}</div>
                     <div>Shahaan</div>
                 </div>
                 <div class="playnow">
                     <span>Play Now</span>
-                    <img class="invert" src="play.svg" alt="">
+                    <img class="invert" src="img/play.svg" alt="">
                 </div>
             </li>`;
     }
@@ -190,4 +190,3 @@ async function main() {
 }
 
 main();
-
